@@ -86,3 +86,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+files-client-linux
+
+files-client-macos
+
+files-client-win.exe

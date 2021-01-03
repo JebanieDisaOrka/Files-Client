@@ -1,0 +1,32 @@
+{
+  "name": "files-client",
+  "version": "1.0.0",
+  "description": "Example client for Files.co.pl services",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "targets": [
+      "node14-win-x64",
+      "node14-linux-x64",
+      "node14-macos-x64"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebanieDisaOrka/Files-Client.git"
+  },
+  "author": "MrTalon63",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JebanieDisaOrka/Files-Client/issues"
+  },
+  "homepage": "https://github.com/JebanieDisaOrka/Files-Client#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "pkg": "^4.4.9"
+  }
+}
