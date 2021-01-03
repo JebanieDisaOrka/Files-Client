@@ -1,0 +1,15 @@
+{
+  "Version": "13.4.0",
+  "Name": "file.co.pl",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://files.co.pl/api/upload",
+  "Headers": {
+    "auth": "token"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "upload",
+  "URL": "$json:url$",
+  "ThumbnailURL": "$json:url$",
+  "ErrorMessage": "$json:message$"
+}
