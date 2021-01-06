@@ -3,7 +3,7 @@
   "Name": "file.co.pl",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://files.co.pl/api/upload",
+  "RequestURL": "https://files.co.pl/api/v1/upload",
   "Headers": {
     "auth": "token"
   },
