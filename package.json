@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/JebanieDisaOrka/Files-Client#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "node-fetch": "^2.6.1",
     "pkg": "^4.4.9"
   }
